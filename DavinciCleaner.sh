@@ -7,5 +7,6 @@ rm -f /usr/share/applications/com.blackmagicdesign.resolve-DaVinciRemoteMonitori
 rm -f /usr/share/applications/com.blackmagicdesign.resolve-Installer.desktop
 rm -f /usr/share/applications/com.blackmagicdesign.resolve-Panels.desktop
 
+ echo 'StartupWMClass=resolve' >> /usr/share/applications/com.blackmagicdesign.resolve.desktop
  echo 'PrefersNonDefaultGPU=true' >> /usr/share/applications/com.blackmagicdesign.resolve.desktop
  echo 'X-KDE-RunOnDiscreteGpu=true' >> /usr/share/applications/com.blackmagicdesign.resolve.desktop
